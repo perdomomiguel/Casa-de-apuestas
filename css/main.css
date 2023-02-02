@@ -1,0 +1,444 @@
+body {
+    background-image: url("../img/campo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    margin: auto;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding: 0;
+    padding: 1em;
+    font-family: sans-serif;
+    background-color: darkblue;
+    color: aliceblue;
+    width: 90%;
+    margin-left: 100px;
+    margin: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;}
+
+.error {
+    color: rgb(196, 103, 103);
+    font-size: 20px;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    font-size: 20px;
+}
+
+/* ////////// CLIENTE /////////////////// */
+
+.profile {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border: 3px inset rgb(142, 186, 224);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: darkblue;
+    color: aliceblue;
+    margin: auto;
+    padding: 1em;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.div_nombre {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 400px;
+}
+
+.div_admin {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 1200px;
+}
+
+
+.nombre {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+input {
+    padding: 1em;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 3px solid aliceblue;
+    background-color: rgb(142, 186, 224);
+    color: darkblue;
+    margin: 10px 10px 10px 10px;
+}
+
+input:hover {
+    opacity: 70%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.form_cliente {
+    color: darkblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cerrar_sesion_input {
+    padding: 1em;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 3px inset aliceblue;
+    background-color: aliceblue;
+    color: rgb(196, 103, 103);
+}
+
+.cerrar_sesion_input:hover {
+    background-color: rgb(196, 103, 103);
+    color: aliceblue;
+    transition: .5s;
+}
+
+table {
+    border: 5px inset aliceblue;
+    border-radius: 20px;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 2em;
+    font-size: 20px;
+    border: 5px inset aliceblue;
+    background-color: lightgrey;
+    opacity: 100%;
+    color: black;
+}
+
+th {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding-bottom: 2em;
+    border: 5px inset aliceblue;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+/* /////////////////// LOGIN  ///////////////////////*/
+
+.h1_login {
+    text-align: center;
+    color: black;
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(193, 235, 255);
+    padding: 1em;
+    border-radius: 20px;
+    border: 3px inset aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.datos {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.datos2 {
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    color: black;
+}
+
+.boton {
+    padding: 1em;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 3px solid aliceblue;
+    background-color: darkblue;
+    color: aliceblue;
+    margin: 10px 10px 10px 10px;
+}
+
+.boton:hover {
+    opacity: 60%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.login_botones {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+/* /////////////////// REGISTRO  ///////////////////////*/
+
+
+.h1_registrar {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.registrar {
+    background-color: rgb(193, 235, 255);
+    width: 80%;
+    border-radius: 20px;
+    border: 3px inset aliceblue;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.editar {
+    background-color: rgb(193, 235, 255);
+    width: 50%;
+    border-radius: 20px;
+    border: 3px inset aliceblue;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.form-group {
+    margin: auto;
+    padding: .5em;
+    color: black;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+}
+
+.form-group-2 {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .5em;
+    color: aliceblue;
+}
+.form-control {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.col-menu {
+    margin: auto;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+}
+
+/* /////////////////// APUESTAS  ///////////////////////*/
+
+.h1_quiniela {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+.eliminar {
+    background-color: rgb(196, 103, 103);
+    border: 2px inset aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.eliminar:hover {
+    opacity: 60%;
+    transition: 0.5s;
+}
+
+.partidos {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(193, 235, 255);
+    padding: 1em;
+    border-radius: 20px;
+    border: 3px solid darkblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: darkblue;
+    color: aliceblue;
+    border-radius: 20px;
+    border: 3px solid aliceblue;
+}
+
+li {
+    margin: auto;
+}
+
+label {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+select {
+    background-color: lightblue;
+    border-radius: 20px;
+    border: 2px inset aliceblue;
+    padding: .5em;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.select_goleador {
+    width: 300px;
+}
+
+.botones {
+    padding-top: 1em;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit {
+    padding: 1.5em;
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px inset aliceblue;
+    font-size: 20px;
+}
+
+.encuentro {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* ////////// ADMIN ///////////*/
+
+.h1_admin {
+    text-align: center;
+    color: black;
+}
+
+.form_admin {
+    margin: auto;
+}
+
+.botones_admin {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2 {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(193, 235, 255);
+    padding: 1em;
+    border-radius: 20px;
+    border: 3px inset aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.boton2 {
+    padding: 1em;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 3px solid aliceblue;
+    background-color: darkblue;
+    color: aliceblue;
+    display: block;
+    width: 20%;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton2:hover {
+    opacity: 60%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cerrar_sesion {
+    padding: 1em;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 3px solid aliceblue;
+    background-color: rgb(196, 103, 103);
+    color: aliceblue;
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cerrar_sesion:hover {
+    opacity: 60%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.encuentro {
+    width: 350px;
+}
+
+.error {
+    color: rgb(196, 103, 103);
+    font-size: 20px;
+}
